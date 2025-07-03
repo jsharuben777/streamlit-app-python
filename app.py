@@ -1,0 +1,12 @@
+import streamlit as st 
+st.title("Dell Global Business Sdn Bhd")
+st.image("factory.jpg")
+st.divider()
+st.date_input("Transaction Date")
+st.divider()
+st.radio("Your departmnent:", ["GPP","Operations","Quality","GOQ","Logistics","HR"])
+st.divider()
+st.slider("Slide me")
+st.divider()
+st.button("Click me")
+st.divider()
